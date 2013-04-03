@@ -1,13 +1,16 @@
-## Laravel 4.x
+## Laravel 4.x + EMBER 1.0 RC2
 
-### A Framework For Web Artisans
 
-[Official Documentation](http://four.laravel.com) (Under Active Development)
+### Simple Starter Kit [WIP]
 
-### Contributing To Laravel
+Requirements
+1. Laravel 4 [http://niallobrien.me/2013/03/installing-and-updating-laravel-4/]
+2. Emberjs starter kit [https://github.com/emberjs/starter-kit/archive/v1.0.0-rc.2.zip]
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+-Download and configure Laravel app
+-Run Composer Install
+-Get Ember StartKit + Ember-Data.js and dump them in laravel/public folder
+-Run ``php artisan migrate`` and ``php artisan db:seed``
+-Open browser and test eg. ``example.local/#/posts``
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+#### More to come.
