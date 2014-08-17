@@ -16,5 +16,6 @@ Route::get('/', function()
 });
 
 Route::get('posts', function(){
-    return '{"posts":'.Post::all().'}';
+    $posts = Post::all();
+    return '{"posts":'.$posts.'}';
 });

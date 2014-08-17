@@ -30,7 +30,7 @@ App.Post = DS.Model.extend({
 App.Adapter = DS.RESTAdapter.extend({
   // do host and endpoint customisations here
   // Test Example
-  url: "http://ember.local"
+  url: "http://localhost:8000"
 });
 
 App.Store = DS.Store.extend({
